@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matérias</title>
+    <link rel="stylesheet" href="materias.css">
+</head>
+<body>
+    <header>
+        <h1>Matérias</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Selecione uma Matéria</h2>
+        <div class="materias-container">
+            <div class="materia-card">
+                <a href="materias/matematica.html">
+                    <h3>Matemática</h3>
+                </a>
+            </div>
+            <div class="materia-card">
+                <a href="materias/natureza.html">
+                    <h3>Natureza</h3>
+                </a>
+            </div>
+            <div class="materia-card">
+                <a href="materias/humanas.html">
+                    <h3>Humanas</h3>
+                </a>
+            </div>
+            <div class="materia-card">
+                <a href="materias/linguagens.html">
+                    <h3>Linguagens</h3>
+                </a>
+            </div>
+            <div class="materia-card tecnico-card" id="curso-tecnico">
+                <h3>Curso Técnico</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para Curso Técnico -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Escolha o Curso Técnico</h2>
+            <div class="modal-cards">
+                <div class="materia-card">
+                    <a href="materias/modelagem.html">
+                        <h3>Modelagem de Sistemas</h3>
+                    </a>
+                </div>
+                <div class="materia-card">
+                    <a href="materias/iot.html">
+                        <h3>Internet das Coisas</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Miguel Lucas Costa Dos Santos</p>
+    </footer>
+    <script src="materias.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4e8d5; /* Fundo de areia */
+    color: #333; /* Cor de texto padrão */
+    line-height: 1.6; /* Melhora a legibilidade do texto */
+}
+
+header {
+    background-color: #ee2222;
+    color: white;
+    padding: 1% 2%; /* Reduzi um pouco o padding */
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em; /* Espaçamento abaixo do título */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Aumentei um pouco o gap */
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em; /* Ajustei o tamanho da fonte */
+    padding: 0.5em 1em; /* Adicionei um pouco de padding aos links */
+    border-radius: 5px; /* Bordas arredondadas nos links */
+    transition: background-color 0.3s ease; /* Transição suave no hover */
+}
+
+header nav ul li a:hover {
+    background-color: #cc1111; /* Cor mais escura no hover */
+}
+
+.conteudo-principal {
+    padding: 20px;
+    margin: 20px auto; /* Centraliza o conteúdo e adiciona margem */
+    max-width: 960px; /* Largura máxima para o conteúdo principal */
+    background-color: white; /* Fundo branco para o conteúdo */
+    border-radius: 8px; /* Bordas arredondadas para a seção principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer {
+    background-color: #ee2222;
+    color: white;
+    padding: 1% 2%; /* Reduzi um pouco o padding */
+    text-align: center;
+    font-size: 0.9em; /* Tamanho da fonte do rodapé */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+}
+
+section img{
+    width: 45%;
+}
